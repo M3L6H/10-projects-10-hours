@@ -10,5 +10,20 @@
   <title>Random Synopsis Generator</title>
 </head>
 <body>
+  <h1>Synopsis Generator</h1>
+  <form id="synopsis-form">
+    <label for="hero-name">Hero</label>
+    <input type="text" name="hero" id="hero-name">
+    <label for="villain-name">Villain</label>
+    <input type="text" name="villain" id="villain-name">
+    <label for="genre">Genre</label>
+    <select name="genre" id="genre">
+      <option>Fantasy</option>
+      <option>Romance</option>
+      <option>Science Fiction</option>
+    </select>
+    <button type="submit">Generate synopsis!</button>
+  </form>
+  <p id="synopsis"></p>
 </body>
 </html>

@@ -1,0 +1,19 @@
+#canvas {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  padding-top: 56.25%;
+  position: relative;
+  width: 100vw;
+  margin: 0;
+}
+
+.inner-div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} 

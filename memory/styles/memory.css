@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.button {
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin: 0 0.25rem;
+  padding: 0.15rem 0.5rem;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+.button.easy {
+  background-color: green;
+}
+
+.button.medium {
+  background-color: orange;
+}
+
+.button.hard {
+  background-color: red;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.card {
+  cursor: pointer;
+  height: 90px;
+  width: 60px;
+  margin: 0.5rem;
+  perspective: 1000px;
+  transition: transform 0.5s;
+}
+
+.card.hidden {
+  cursor: default;
+}
+
+.card.hidden .front, .card.hidden .back {
+  opacity: 0;
+}
+
+.card:hover {
+  transform: translate3d(0, -3px, 0);
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  background-color: #e7e7e7;
+  border: 2px solid rgb(255, 94, 0);
+  border-radius: 8px;
+  color: rgb(255, 94, 0);
+
+  transition: opacity 1s;
+}
+
+.front {
+  transform: rotateY(180deg);
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3rem;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+}

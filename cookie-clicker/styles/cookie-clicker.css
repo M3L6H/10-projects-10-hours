@@ -1,0 +1,54 @@
+.cookie {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cookie img {
+  cursor: pointer;
+}
+
+.clicks {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1rem 2rem;
+  font-size: 2rem;
+}
+
+#reset {
+  background-color: rgb(255, 43, 43);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin: 1rem 2rem;
+  padding: 0.125rem 0.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#reset:hover {
+  filter: brightness(90%);
+}
+
+.shop {
+  background-color: #c8cbd6;
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.shop > div {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop > div img {
+  margin: 0.25rem 0;
+  height: 50px;
+}

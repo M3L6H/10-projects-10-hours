@@ -1,0 +1,96 @@
+.carousel-container {
+  margin: 3rem 8rem;
+  max-width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.display-container {
+  position: relative;
+}
+
+.display:nth-child(n + 2) {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+}
+
+.display.animate {
+  transition: transform 1s;
+}
+
+.display img {
+  max-width: 100%;
+}
+
+.display.right {
+  transform: translate3d(150%, 0, 0);
+}
+
+.display.left {
+  transform: translate3d(-150%, 0, 0);
+}
+
+.button-right, .button-left {
+  background-color: rgba(94, 98, 110, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  font-size: 2rem;
+  width: 30px;
+  height: 30px;
+}
+
+.button-left:hover, .button-right:hover {
+  filter: brightness(90%);
+}
+
+.button-right {
+  right: 0;
+  justify-content: flex-end;
+  padding-right: 0.45rem;
+}
+
+.button-left {
+  left: 0;
+  justify-content: flex-start;
+  padding-left: 0.45rem;
+}
+
+.dots-container {
+  color: rgba(255, 255, 255, 0.75);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.4rem;
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding-bottom: 1rem;
+}
+
+.dots-container > i {
+  padding: 0 0.25rem;
+  transition: all 1s;
+}
+
+.dots-container > i.selected {
+  cursor: default;
+  transform: scale(1.5);
+}

@@ -12,6 +12,26 @@ body {
 header {
   display: flex;
   justify-content: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+header .ten {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+header .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 0.5rem;
+  padding-top: 0.125rem;
+}
+
+header .text span {
+  font-size: 2rem;
 }
 
 a {

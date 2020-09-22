@@ -6,9 +6,35 @@
 
   <script src="./scripts/index.js" type="module" ></script>
   <link rel="stylesheet" type="text/css" href="./styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
   <title>Trello Drag n Drop Organizer</title>
 </head>
 <body>
+  <div class="column">
+    <div class="header">ToDo <i data-list-id="0" class="new-card fas fa-plus"></i></div>
+    <div data-id="0" class="card-container todo">
+      <div data-id="0" class="card draggable" draggable="true">
+        Hi this is a card
+        <i data-card="0" class="fas fa-minus remove-card"></i>
+      </div>
+      <div data-id="1" class="card draggable" draggable="true">
+        This is a second card
+        <i data-card="1" class="fas fa-minus remove-card"></i>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="header">In Progress <i data-list-id="1" class="new-card fas fa-plus"></i></div>
+    <div data-id="1" class="card-container in-progress">
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="header">Done <i data-list-id="2" class="new-card fas fa-plus"></i></div>
+    <div data-id="2" class="card-container done">
+
+    </div>
+  </div>
 </body>
 </html>

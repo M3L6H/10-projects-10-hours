@@ -4,6 +4,10 @@ Inspired by [Florin Pop's video](https://www.youtube.com/watch?v=dtKciwk_si4&ab_
 this is a challenge in which the programmer completes 10 simple web projects in
 10 hours.
 
+Although I only managed to complete nine out of the ten projects, it was a rewarding
+experience, and one that I enjoyed thoroughly. I look forward to trying it again
+in the future.
+
 - [10 Hours 10 Projects](#10-hours-10-projects)
   - [1. Calculator](#1-calculator)
   - [2. Carousel](#2-carousel)
@@ -11,7 +15,7 @@ this is a challenge in which the programmer completes 10 simple web projects in
   - [4. Dinosaur](#4-dinosaur)
   - [5. Filters](#5-filters)
   - [6. Memory](#6-memory)
-  - [7. Particle Field](#7-particle-field)
+  - [7. ~~Particle Field~~ Did not finish](#7-sparticle-fields-did-not-finish)
   - [8. Random Synopsis Generator](#8-random-synopsis-generator)
   - [9. Tab Widget](#9-tab-widget)
   - [10. Trello Drag n Drop Organizer](#10-trello-drag-n-drop-organizer)
@@ -52,7 +56,7 @@ this is a challenge in which the programmer completes 10 simple web projects in
 - Should support varying sizes of grids for different difficulties
 - Should be a random layout each game
 
-## 7. Particle Field
+## 7. ~~Particle Field~~ Did not finish
 
 - Particles should repel each other
 - The edge should repel particles
@@ -73,6 +77,6 @@ this is a challenge in which the programmer completes 10 simple web projects in
 ## 10. Trello Drag n Drop Organizer
 
 - Should have three fixed lists
-- Should support adding and removing cards
+- Should support adding and ~~removing cards~~ Did not finish
 - Should support drag and drop re-arranging
 - Should support drag and drop between lists

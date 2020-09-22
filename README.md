@@ -8,6 +8,8 @@ Although I only managed to complete nine out of the ten projects, it was a rewar
 experience, and one that I enjoyed thoroughly. I look forward to trying it again
 in the future.
 
+Find the projects [here](https://m3l6h.github.io/10-projects-10-hours/).
+
 - [10 Hours 10 Projects](#10-hours-10-projects)
   - [1. Calculator](#1-calculator)
   - [2. Carousel](#2-carousel)
